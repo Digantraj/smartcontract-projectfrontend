@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Auction House</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<h1>Auction House</h1>
+<body class="container">
+   <div class="bgblue">
+      <div>
+         
+         <button class="button" onclick="createAuction()">Create Auction</button>
+         <div id="auctionInfo"></div>
+      </div>
+      <div>
+         <h2>Place Bid</h2>
+         <div>
+
+            <input class="input-field" type="number" id="auctionId" placeholder="Auction ID">
+            <input class="input-field" type="number" id="bidAmount" placeholder="Bid Amount">
+         </div>
+         <button class="button" onclick="placeBid()">Place Bid</button>
+      </div>
+      <div>
+         <h2>End Auction</h2>
+         <input class="input-field" type="number" id="endAuctionId" placeholder="Auction ID">
+         <button class="button" onclick="endAuction()">End Auction</button>
+      </div>
+      <div>
+         <h2>Show Bids</h2>
+         <input class="input-field" type="number" id="showBidsAuctionId" placeholder="Auction ID">
+         <button class="button" onclick="showBids()">Show Bids</button>
+         <div id="bidsInfo"></div>
+      </div>
+   </div>
+
+   <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+   <script src="apps.js"></script>
+</body>
+
+</html>

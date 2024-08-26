@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+ }
+ 
+ h1 {
+    color: white;
+    margin-bottom: 10px;
+    width: 30vw;
+    text-align: center;
+    line-height: 20px;
+ 
+ }
+ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+ }
+ 
+ input[type=number] {
+    -moz-appearance: textfield;
+ }
+ 
+ .container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: 100;
+    padding: 40px;
+    background-image: url('https://www.globaltechcouncil.org/wp-content/uploads/2018/12/Bitcoin-Background-2400x1256.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+ }
+ 
+ .container>div {
+    background-color: rgba(255, 255, 255, 0.7);
+ }
+ 
+ .button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    min-width: 10vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ /* AVAX test */
+ .buttonShow {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #9ee9a1;
+    width: 5vw;
+    border: none;
+    border-radius: 15px;
+    cursor: default;
+    color: black;
+ }
+ 
+ .button:hover {
+    background-color: #45a049;
+ }
+ 
+ 
+ .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ .bgblue {
+    background: black;
+    padding: 20px;
+    border-radius: 30px;
+ }
+ 
+ .bgblue>div {
+    margin: 15px;
+ }
+ 
+ header {
+    text-align: center;
+ }
+ 
+ header p {
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 5px;
+    /* padding: 20px; */
+ }
